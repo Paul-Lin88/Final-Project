@@ -25,6 +25,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name=".receive" android:label="查看"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name="add" android:label="新增"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
